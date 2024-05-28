@@ -33,6 +33,7 @@ public class UserController {
 	public ResponseEntity<User> createUser(@RequestBody User user){
 		User savedUser =  userService.createUser(user);
 		return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
+			System.out.println("sumit");
 	}
 	
 
