@@ -34,6 +34,7 @@ public class UserController {
 		User savedUser =  userService.createUser(user);
 		return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
 			System.out.println("sumit");
+			//git push is completed
 	}
 	
 
